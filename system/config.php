@@ -1,10 +1,10 @@
 <?php
 
-$base_url = "http://localhost/roonita/";
+$base_url = "http://localhost/mvc/";
+$base_dir = "/mvc/";
 
-$base_dir = "/roonita/";
 
-$tmp = explode('?', $_SERVER('REQUEST_URI'));
+$tmp = explode('?', $_SERVER['REQUEST_URI']);
 
 $current_route = str_replace($base_dir, '', $tmp[0]);
 

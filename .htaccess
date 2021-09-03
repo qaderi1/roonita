@@ -10,7 +10,3 @@ RewriteCond %{THE_REQUEST} !/public/* [NC]
 RewriteCond %{THE_REQUEST} /(application|system|view)/.+ [NC]
 RewriteRule ^ - [R=403,L]
 
-
-
-
-
